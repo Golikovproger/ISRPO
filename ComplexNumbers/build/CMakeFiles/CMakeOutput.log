@@ -1,0 +1,53 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the CSharp compiler identification source file "CMakeCSharpCompilerId.cs" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+Сборка начата 04.10.2022 16:34:47.
+Проект "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.csproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "obj\x64\Debug\".
+GenerateBindingRedirects:
+  Нет предлагаемых перенаправлений привязки от ResolveAssemblyReferences.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /define:Platformx64;PlatformToolsetv143 /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /debug+ /out:obj\x64\Debug\CompilerIdCSharp.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 CMakeCSharpCompilerId.cs "obj\x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - 48b14679-5f7c-415d-a901-6ea26e149885
+CopyFilesToOutputDirectory:
+  Копирование файла из "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe" в "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.exe".
+  CompilerIdCSharp -> C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.exe
+  Копирование файла из "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb" в "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.pdb".
+PostBuildEvent:
+  if not "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn"=="" if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe" set _CSC=C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn
+  if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\csc.exe" set _CSC=C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64
+  if "%_CSC%"=="" exit -1
+  @echo CMAKE_CSharp_COMPILER=%_CSC%\csc.exe
+  CMAKE_CSharp_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe
+Сборка проекта "C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.csproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:02.45
+
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.csproj"
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.exe"
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.pdb"
+
+The CSharp compiler identification is Microsoft Visual Studio, found in "C:/Users/User/source/repos/ComplexNumbers/build/CMakeFiles/3.24.2/CompilerIdCSharp/CompilerIdCSharp.exe"
+
+Determining if the C# compiler works passed with the following output:
+Change Dir: C:/Users/User/source/repos/ComplexNumbers/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1b8ce.csproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  cmTC_1b8ce -> C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\CMakeTmp\Debug\cmTC_1b8ce.exe
+
+
+

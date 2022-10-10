@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCSharpCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCSharpInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDetermineCSharpCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystem.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeTestCSharpCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CompilerId/VS-10.csproj.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+C:/Users/User/source/repos/ComplexNumbers/CMakeLists.txt
+C:/Users/User/source/repos/ComplexNumbers/build/CMakeFiles/3.24.2/CMakeCSharpCompiler.cmake
+C:/Users/User/source/repos/ComplexNumbers/build/CMakeFiles/3.24.2/CMakeSystem.cmake

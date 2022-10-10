@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\bin\Debug\net6.0\ComplexNumbers.deps.json
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\bin\Debug\net6.0\ComplexNumbers.dll
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\bin\Debug\net6.0\ComplexNumbers.pdb
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.AssemblyInfo.cs
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.dll
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\refint\ComplexNumbers.dll
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ComplexNumbers.pdb
+C:\Users\User\source\repos\ComplexNumbers\ComplexNumbers\obj\Debug\net6.0\ref\ComplexNumbers.dll
