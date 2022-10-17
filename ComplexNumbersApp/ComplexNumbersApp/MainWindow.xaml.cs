@@ -24,11 +24,20 @@ namespace ComplexNumbersApp
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            //double a = Convert.ToInt32(textBox1.Text);
+            //double b = Convert.ToInt32(textBox2.Text);
+            //double a2 = Convert.ToInt32(textBox1.Text);
+            //double b2 = Convert.ToInt32(textBox2.Text);  it's a shit a i'm stupied dog
+            //Complex.Complex numbers = new Complex(a, b);
+            //numbers.sumnum(a, b);
+            
 
+            
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
@@ -46,24 +55,5 @@ namespace ComplexNumbersApp
 
         }
 
-        //private void Sum_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
-
-        //private void Min_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
-
-        //private void Multiply_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
-
-        //private void Devide_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
     }
 }

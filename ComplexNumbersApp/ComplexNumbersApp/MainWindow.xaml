@@ -3,22 +3,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
         xmlns:local="clr-namespace:ComplexNumbersApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="450">
+        Title="MainWindow" Height="450" Width="500">
     <Grid x:Name="grid1" Background="Coral">
-        <Label x:Name="label1"  Width="150" Height="30" Content="Введите первое число" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5"/>
-        <TextBox x:Name ="textBox1" Width="160" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5"/>
-        <Label x:Name="label2"  Width="150" Height="30" Content="Введите второе число" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,51,0,0"/>
-        <TextBox x:Name ="textBox2" Width="160" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,54,0,0"/>
-        <Button x:Name="button1" Content="+" FontSize="22" Width="40" Height="40"
-                Click="button1_Click" Margin="185,163,225,181" />
-        <Button x:Name="button2" Content="-" FontSize="22" Width="40" Height="40"
-                Click="button2_Click" Margin="230,163,180,181" />
-        <Button x:Name="button3" Content="*" FontSize="22" Width="40" Height="40"
-                Click="button3_Click" Margin="185,208,225,136" />
-        <Button x:Name="button4" Content="%" FontSize="22" Width="40" Height="40"
-                Click="button4_Click" Margin="230,208,180,136" />
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Label x:Name="label1"  Width="180" Height="30" Content="Введите первое число" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5"/>
+        <TextBox x:Name ="textBox1" Width="160" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="190,10,0,0"/>
+        <Label x:Name="label2"  Width="180" Height="30" Content="Введите второе число"  Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,51,0,0"/>
+        <TextBox x:Name ="textBox2" Width="160" Height="30" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,51,0,0"/>
+        <Label x:Name="label3"  Width="150" Height="30" FontSize="16" Content="Результат: " Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,346,0,0"/>
+        <Button x:Name="button1" Content="+" FontSize="22" Width="60" Height="60"
+                Click="button1_Click" Margin="185,163,205,181" />
+        <Button x:Name="button2" Content="-" FontSize="22" Width="60" Height="60"
+                Click="button2_Click" Margin="270,163,120,181" RenderTransformOrigin="1.1,0.517" />
+        <Button x:Name="button3" Content="*" FontSize="22" Width="60" Height="60"
+                Click="button3_Click" Margin="185,242,205,102" />
+        <Button x:Name="button4" Content="%" FontSize="22" Width="60" Height="60"
+                Click="button4_Click" Margin="270,242,120,102" />
+
     </Grid>
 </Window>

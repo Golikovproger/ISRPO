@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Complex">
+    <Reference Include="Complex, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\ComplexNumbers\build\Debug\Complex.dll</HintPath>
     </Reference>
     <Reference Include="System" />
