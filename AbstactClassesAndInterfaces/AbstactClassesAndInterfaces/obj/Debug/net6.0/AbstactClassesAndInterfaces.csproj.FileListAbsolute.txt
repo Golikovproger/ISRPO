@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\bin\Debug\net6.0\AbstactClassesAndInterfaces.exe
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\bin\Debug\net6.0\AbstactClassesAndInterfaces.deps.json
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\bin\Debug\net6.0\AbstactClassesAndInterfaces.runtimeconfig.json
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\bin\Debug\net6.0\AbstactClassesAndInterfaces.dll
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\bin\Debug\net6.0\AbstactClassesAndInterfaces.pdb
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.AssemblyInfo.cs
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.dll
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\refint\AbstactClassesAndInterfaces.dll
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.pdb
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\AbstactClassesAndInterfaces.genruntimeconfig.cache
+C:\Users\User\source\repos\AbstactClassesAndInterfaces\AbstactClassesAndInterfaces\obj\Debug\net6.0\ref\AbstactClassesAndInterfaces.dll
