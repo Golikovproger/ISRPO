@@ -1,7 +1,0 @@
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.AssemblyReference.cache
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.exe
-C:\Users\User\source\repos\ComplexNumbers\build\CMakeFiles\3.24.2\CompilerIdCSharp\CompilerIdCSharp.pdb

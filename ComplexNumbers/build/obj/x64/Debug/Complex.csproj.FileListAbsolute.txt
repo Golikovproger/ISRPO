@@ -1,6 +1,0 @@
-C:\Users\User\source\repos\ComplexNumbers\build\obj\x64\Debug\Complex.csproj.AssemblyReference.cache
-C:\Users\User\source\repos\ComplexNumbers\build\obj\x64\Debug\Complex.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\ComplexNumbers\build\Debug\Complex.dll
-C:\Users\User\source\repos\ComplexNumbers\build\Debug\Complex.pdb
-C:\Users\User\source\repos\ComplexNumbers\build\obj\x64\Debug\Complex.dll
-C:\Users\User\source\repos\ComplexNumbers\build\obj\x64\Debug\Complex.pdb
