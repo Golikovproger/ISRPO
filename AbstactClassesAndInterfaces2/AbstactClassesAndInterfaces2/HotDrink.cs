@@ -8,17 +8,53 @@ namespace AbstactClassesAndInterfaces2
 {
     abstract class HotDrink
     {
-       string Drink()
+        protected int sugar = 3;
+        protected int milk = 3;
+
+        public int Sugar
         {
-            return "You drunk all milk";
+            get
+            {
+                return sugar;
+            }
+            set
+            {
+                if ((value >= 0) & (value <= 10))
+                {
+                    sugar = value;
+                }
+                else sugar = 3;
+            }
         }
-        string AddMilk()
+        public int Milk
         {
-            return "Milk was added";
+            get
+            {
+                return milk;
+            }
+            set
+            {
+                if ((value >= 0) & (value <= 10))
+                {
+                    milk = value;
+                }
+                else milk = 3;
+            }
         }
-        string AddSugar()
+
+        string Drink()
         {
-            return "Sugar was added";
+            return "Выпить";
+        }
+        string AddMilk(int count)
+        {
+            Milk = count;
+            return $"В кофе добавлено молоко: {Milk}";
+        }
+        string AddSugar(int count)
+        {
+            Sugar = count;
+            return $"В кофе добавлен сахар: {Sugar}";
         }
     }
 }

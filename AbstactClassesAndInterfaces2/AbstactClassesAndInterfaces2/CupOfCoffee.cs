@@ -8,8 +8,51 @@ namespace AbstactClassesAndInterfaces2
 {
     class CupOfCoffee : HotDrink, ICup
     {
-        public string Type { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+        public string type = "пластик";
+        public double capacity = 0.2;
+        public string beantype = "робуста";
+        public string Type
+        {
+            get
+            {
+                return type;
+            }
+            set
+            {
+                if ((value == "пластик") || (value == "бумага"))
+                {
+                    type = value;
+                }
+            }
+        }
+        public double Capacity
+        {
+            get
+            {
+                return capacity;
+            }
+            set
+            {
+                if ((value == 0.2) || (value == 0.4) || (value == 0.6))
+                {
+                    capacity = value;
+                }
+            }
+        }
+        public string BeanType
+        {
+            get
+            {
+                return beantype;
+            }
+            set
+            {
+                if ((value == "робуста") || (value == "арабика"))
+                {
+                    type = value;
+                }
+            }
+        }
         public void Refil()
         {
             throw new NotImplementedException();
@@ -19,11 +62,5 @@ namespace AbstactClassesAndInterfaces2
         {
             throw new NotImplementedException();
         }
-        string BeanType
-        {
-            get;
-            set;
-        }
-        double ICup.Capacity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
