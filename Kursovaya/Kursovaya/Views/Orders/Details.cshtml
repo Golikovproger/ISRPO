@@ -1,0 +1,66 @@
+﻿@model Kursovaya.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfShipment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfShipment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfArrive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfArrive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeliveryStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeliveryStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Clients.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Clients.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Routes.RouteName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Routes.RouteName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

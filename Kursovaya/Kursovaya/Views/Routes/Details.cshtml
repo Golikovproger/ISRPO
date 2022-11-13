@@ -1,0 +1,50 @@
+﻿@model Kursovaya.Models.Routes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Routes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Range)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Range)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantitiOfDays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantitiOfDays)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverPayment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverPayment)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

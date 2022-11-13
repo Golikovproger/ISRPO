@@ -1,0 +1,56 @@
+﻿@model Kursovaya.Models.Routes
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Routes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Range)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Range)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantitiOfDays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantitiOfDays)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverPayment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverPayment)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

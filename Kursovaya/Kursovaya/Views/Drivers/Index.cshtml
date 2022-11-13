@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Kursovaya.Models.Drivers>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{
+    <p>
+            Find by name: @Html.TextBox("SearchString")
+            <input type="submit" value="Search" />
+        </p>
+    @*<div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Find by name:" value="@ViewBag.SearchString" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <button class="input-group-text" id="basic-addon2" type="submit">Search</button>
+    </div>*@
+    @*<div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Find by name: ">
+    </div>
+    <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Password</label>
+        <input type="text" class="form-control" placeholder="alexandr..." value="@ViewBag.SearchString" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+    </div>*@
+
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Surname", "Index", new { sortOrder = "Surname" })
+            
+        </th>
+        <th>
+            @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Patronymic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Experience)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Experience)
+            </td>
+            <td>
+                @{ byte[] photo = item.Image;
+                    string imageSrc = null;
+                    if (photo != null)
+                    {
+                        MemoryStream ms = new MemoryStream();
+                        ms.Write(photo, 0, photo.Length);
+                        string imageBase64 = Convert.ToBase64String(ms.ToArray());
+                        imageSrc = string.Format("data:image/jpg;base64,{0}", imageBase64);
+                        string base64String = Convert.ToBase64String(photo, 0, photo.Length);
+                    }
+                }
+
+                <img src="@imageSrc" alt="Image" width="150" height="100" />
+
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
