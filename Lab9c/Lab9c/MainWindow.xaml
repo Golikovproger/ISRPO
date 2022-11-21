@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab9c.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab9c"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,376">
+        <TextBox Name="textbox1" HorizontalAlignment="Left" Height="121" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="677" Margin="63,96,0,-174"/>
+        <ToolBar Margin="19,17,638,-17">
+
+
+            <Button Name="Copy" Click="Copy_Click">Copy</Button>
+            <Button Name="Paste" Click="Paste_Click">Paste</Button>
+            <Button Name="Cut" Click="Cut_Click">Cut</Button>
+
+        </ToolBar>
+
+    </Grid>
+</Window>

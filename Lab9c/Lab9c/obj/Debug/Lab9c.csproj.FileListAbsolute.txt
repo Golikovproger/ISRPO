@@ -1,0 +1,15 @@
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\bin\Debug\Lab9c.exe.config
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\bin\Debug\Lab9c.exe
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\bin\Debug\Lab9c.pdb
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.csprojAssemblyReference.cache
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\MainWindow.g.cs
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\App.g.cs
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c_MarkupCompile.cache
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c_MarkupCompile.lref
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\MainWindow.baml
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.g.resources
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.Properties.Resources.resources
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.csproj.GenerateResource.cache
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.csproj.CoreCompileInputs.cache
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.exe
+C:\Users\mrsas\source\repos\Lab9c\Lab9c\obj\Debug\Lab9c.pdb
