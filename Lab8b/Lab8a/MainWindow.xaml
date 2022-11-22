@@ -1,0 +1,49 @@
+﻿<Window x:Class="Lab8a.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab8a"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <ToolBar HorizontalAlignment="Left" Height="57"  VerticalAlignment="Top" Width="758" DockPanel.Dock="Top">
+            <Button Name="BoldFont" Click="BoldFont_Click" Content="B" FontSize="19" FontWeight="Bold"/>
+            <Separator></Separator>
+            <Button Name="CursiveFont" Click="CursiveFont_Click" Content="/" FontSize="19" FontStyle="Normal"  />
+            <StackPanel VerticalAlignment="Center" Margin="10">
+                <Slider Name="slider" Maximum="36" Minimum="12" TickPlacement="BottomRight" TickFrequency="2" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" Width="250" />
+            </StackPanel>
+            
+        </ToolBar>
+        <Grid ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="150"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListBox Name="FontsName" Grid.Column="0"  SelectionChanged="FontsName_SelectionChanged" DockPanel.Dock="Left"  >
+                <ListBoxItem>Times New Roman</ListBoxItem>
+                <ListBoxItem>Segoe Script</ListBoxItem>
+                <ListBoxItem>Monotype Corsiva</ListBoxItem>
+
+            </ListBox>
+            
+            <GridSplitter Grid.Column="1"  ShowsPreview="True" Width="20"
+        HorizontalAlignment="Center" VerticalAlignment="Stretch" DockPanel.Dock="Bottom" />
+            <RichTextBox  Name="textbox1" Grid.Column="2"  HorizontalAlignment="Left"    DockPanel.Dock="Right">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="RichTextBox"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </Grid>
+
+        
+
+
+
+    </DockPanel>
+</Window>
